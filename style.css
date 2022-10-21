@@ -1,0 +1,225 @@
+*{box-sizing: border-box;}
+
+body {
+	width:100%;
+}
+
+header {
+	display:flex;
+	height:75px;
+	position: relative;
+	z-index: -1;
+}
+
+header img {
+	height: 70px;
+	width: 90px;
+	text-align:center;
+	margin-left:1rem;
+}
+
+header p.payslip {
+	font-size:20px;
+	margin: auto;
+}
+
+header a {
+	margin-bottom:auto;
+	margin-right:1rem;
+	text-decoration: none;
+}
+
+header a i{
+	text-align: center;
+}
+
+ul.gnav-navi-1{
+background: black;
+padding: 0;
+text-align: center;
+margin-top: 0;
+}
+
+ul.gnav-navi-1 li{
+display: inline-block;
+width:15%;
+}
+
+.icon {
+	color:#FFF;
+}
+
+ul.gnav-navi-1 li a{
+display: block;
+padding: 0 1em 1em 1em;
+color: rgb(202, 202, 202);
+text-decoration: none;
+}
+
+
+
+ul.gnav-navi-1 {
+font-size: 15px;
+}
+
+main {
+	background-color: #f2f0ea;
+	padding: 1px;
+}
+
+.box1 {
+	padding: 0.5em 1em;
+	margin: 2em 0.5em;
+	font-weight: bold;
+	border: solid 1.5px #ded7c9;
+	background-color: #FFF;
+}
+
+.box1 p {
+	margin: 0;
+	padding: 0;
+	font-weight: lighter;
+	color: #336496;
+}
+
+.notice {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 1rem;
+}
+
+
+.notice a {
+	text-decoration: none;
+}
+
+.sheet {
+	width: 100%;
+  /* overflow-x: scroll;で、
+  スマホ画面幅に表が入りきらない場合は
+  横スクロールしてくれます */
+  overflow-x: scroll;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.uppest th {
+  font-weight: bold;
+  /* ２番目以降の線 */
+  /* 色はお好みで */
+}
+
+.left {
+	padding-left: 1rem;
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+	padding-right: 1rem;
+}
+
+
+.activity-title {
+	text-align: center;
+	padding-left:2rem;
+}
+
+.details-chevron {
+	margin-right:1rem;
+}
+
+.month {
+	border-top: solid 2px #65522b;
+	border-bottom: solid 1px #65522b;
+	background-color:#d2cdc1;
+	padding:0.5rem;
+}
+
+
+.list th{
+	font-weight: normal;
+  }
+
+.activity {
+	text-align:left;s
+}
+
+.activity[title*="-"] {
+	color: red;
+}
+
+
+.left-list {
+	width:20%;
+}
+.middle-list {
+	width:50%;
+}
+
+.right-list {
+	width: 30%;
+}
+
+.details td {
+	width:100px;
+}
+
+.list, .details {
+	border-bottom: 1px solid  #65522b;
+	border-top: 1px solid  #65522b;
+	height: 45px;
+}
+
+.details td {
+	padding-left: 1rem;
+	border-bottom:solid 2px #65522b;
+}
+
+.attention p {
+	padding-left: 2rem;
+	padding-right: 1rem;
+	text-indent: -1rem;
+}
+
+footer {
+	border-top: solid 1.5px #000000;
+}
+
+footer p {
+	text-align: center;
+}
+
+.info {
+	display:block;
+	font-size:15px;
+	font-weight:lighter;
+	color: #b9b6b0;
+	margin:5px;
+}
+
+.fa-right-to-bracket {
+    display: inline-block;
+    width: 100%;
+}
+
+.pages {
+	padding-top:1.5rem;
+	padding-bottom:0.5rem;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+}
+
+.chevron {
+	text-align: center;
+	text-decoration: none;
+}
+.page-left-chevron {
+	padding-right: 1.5rem;
+}
+
+.page-right-chevron {
+	padding-left: 1.5rem;
+}
