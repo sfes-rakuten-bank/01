@@ -43,6 +43,8 @@ margin-top: 0;
 ul.gnav-navi-1 li{
 display: inline-block;
 width:15%;
+font-size: 10px;
+font-size-adjust: 0.6;
 }
 
 .icon {
@@ -222,4 +224,12 @@ footer p {
 
 .page-right-chevron {
 	padding-left: 1.5rem;
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+
 }
