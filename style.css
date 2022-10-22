@@ -247,6 +247,14 @@ footer p {
 		text-align: center;
 	}
 
+	ul.gnav-navi-1{
+		background: black;
+		padding: 0;
+		text-align: center;
+		margin-top: 0;
+		height:10%;
+		}
+
 	ul.gnav-navi-1 li{
 		display: inline-block;
 		width:20%;
