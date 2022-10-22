@@ -287,4 +287,13 @@ footer p {
 		.fa-lg {
 			font-size: 0.5em;
 		}
+
+.box1 {
+	padding: 0.5em 1em;
+	margin: 2em 0.5em;
+	font-weight: bold;
+	border: solid 1.5px #ded7c9;
+	background-color: #FFF;
+	font-size: 0.75em;
+}
 }
