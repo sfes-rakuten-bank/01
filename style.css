@@ -253,7 +253,7 @@ footer p {
 		padding: 0;
 		text-align: center;
 		margin-top: 0;
-		height: 20%;
+		height:20%;
 		}
 
 	ul.gnav-navi-1 li{
@@ -273,5 +273,9 @@ footer p {
 			font-weight:lighter;
 			color: #b9b6b0;
 			margin:5px;
+		}
+
+		.fa-2x {
+			font-size:0.5em;
 		}
 }
