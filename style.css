@@ -296,4 +296,29 @@ footer p {
 	background-color: #FFF;
 	font-size: 0.75em;
 }
+.notice {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 1rem;
+	font-size: 0.5em;
+}
+
+.sheet {
+	width: 100%;
+  /* overflow-x: scroll;で、
+  スマホ画面幅に表が入りきらない場合は
+  横スクロールしてくれます */
+  overflow-x: scroll;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 0.5em;
+}
+
+.attention p {
+	padding-left: 2rem;
+	padding-right: 1rem;
+	text-indent: -1rem;
+	font-size: 0.5em;
+}
+
 }
