@@ -232,12 +232,37 @@ footer p {
 @media screen and (max-width: 480px) {
 	/* 480px以下に適用されるCSS（スマホ用） */
 	header p.payslip {
-	font-size:10px;
+	font-size:15spx;
 	margin: auto;
 	}
+
+	header a {
+		margin-bottom:auto;
+		margin-right:1rem;
+		text-decoration: none;
+		font-size: 15px;
+	}
+	
+	header a i{
+		text-align: center;
+	}
+
 	ul.gnav-navi-1 li{
 		display: inline-block;
 		width:15%;
 		font-size: 4.5px;
+		}
+
+
+
+		.copyright {
+			font-size:12px;
+		}
+		.info {
+			display:block;
+			font-size:10px;
+			font-weight:lighter;
+			color: #b9b6b0;
+			margin:5px;
 		}
 }
