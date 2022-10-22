@@ -241,7 +241,7 @@ footer p {
 		margin-bottom:auto;
 		margin-right:1rem;
 		text-decoration: none;
-		font-size: 0.5em;
+		font-size: 10px;
 	}
 	
 	header a i{
@@ -259,7 +259,7 @@ footer p {
 
 	ul.gnav-navi-1 li{
 		display: inline-block;
-		margin:0px;
+		margin:auto;
 		width:12%;
 		
 		}
