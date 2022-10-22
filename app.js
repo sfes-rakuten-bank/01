@@ -1,1 +1,0 @@
-setTimeout(scrollTo, 100, 0, 1);
