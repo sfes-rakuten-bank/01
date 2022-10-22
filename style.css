@@ -53,7 +53,7 @@ font-size-adjust: 0.6;
 
 ul.gnav-navi-1 li a{
 display: block;
-padding: 0 1em 1em 1em;
+padding: 1px 2px;
 color: rgb(202, 202, 202);
 text-decoration: none;
 }
