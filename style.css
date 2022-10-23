@@ -261,7 +261,7 @@ footer p {
 		padding: 0;
 		text-align: center;
 		width:100vw;
-		height:10vw;
+		height:15vw;
 		}
 
 	ul.gnav-navi-1 li{
@@ -274,9 +274,12 @@ footer p {
 		text-align: center;
 		padding:2px;
 	}
+	ul.gnav-navi-1 li a i {
+		margin-top:0.75rem;
+	}
 
 	.navi-name {
-		font-size: 0.5rem;
+		font-size: 0.75rem;
 		margin-top:0.5rem;
 	}
 
@@ -305,13 +308,17 @@ footer p {
 	font-weight: bold;
 	border: solid 1.5px #ded7c9;
 	background-color: #FFF;
-	font-size: 0.75em;
+	font-size: 0.8em;
 }
 .notice {
 	display: flex;
 	justify-content: flex-end;
 	padding-right: 1rem;
-	font-size: 0.5em;
+	font-size: 0.75em;
+}
+
+.notice-group {
+	padding-bottom: 2rem;
 }
 
 .sheet {
@@ -322,14 +329,14 @@ footer p {
   overflow-x: scroll;
   text-align: center;
   border-collapse: collapse;
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 
 .attention p {
 	padding-left: 2rem;
 	padding-right: 1rem;
 	text-indent: -1rem;
-	font-size: 0.5em;
+	font-size: 0.75em;
 }
 
 .details-box table {
@@ -408,12 +415,14 @@ footer p {
 	border-right:1px solid #000000;
 	border-top:1px solid #000000;
 	border-bottom:1px solid #000000;
-	font-size:0.5em;
+	font-size:1.0em;
 }
 
 .dd {
 	height:8vw;
 	background-color : #ded7c9;
+	padding-bottom: 1em;
+	padding-top: 1em;
 }
 
 .details-left {
@@ -423,6 +432,8 @@ footer p {
 	border-top:#000 solid 1px;
 	padding-left:0.5em;
 	font-weight:bold;
+	padding-bottom: 0.75em;
+	padding-top: 0.75em;
 }
 .details-right {
 	width:65vw;
@@ -431,6 +442,8 @@ footer p {
 	border-top:#000 solid 1px;
 	padding-left:0.5em;
 	padding-right:0.5em;
+	padding-bottom: 0.75em;
+	padding-top: 0.75em;
 }
 
 .button {
@@ -443,8 +456,8 @@ footer p {
 	background-color:#463002;
 	border: none;
 	width:90vw;
-	padding:10px;
-	font-size:0.5em;
+	padding:1em;
+	font-size:0.75em;
 }
 .back-btn a {
 	text-decoration: none;
