@@ -34,11 +34,6 @@ header a i{
 	text-align: center;
 }
 
-nav {
-	height:40vw;
-
-}
-
 ul.gnav-navi-1{
 background: black;
 text-align: center;
@@ -258,8 +253,7 @@ footer p {
 		background: black;
 		padding: 0;
 		text-align: center;
-		margin:0 auto;
-		height:30%;
+
 		width:100vw;
 		}
 
@@ -278,8 +272,6 @@ footer p {
 	.navi-name {
 		font-size: 2px;
 	}
-	
-
 
 		.copyright {
 			font-size:12px;
