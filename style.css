@@ -254,13 +254,12 @@ footer p {
 		background: black;
 		padding: 0;
 		text-align: center;
-
 		width:100vw;
 		}
 
 	ul.gnav-navi-1 li{
 		display: inline-block;
-		width:19%;
+		width:19vw;
 		margin:0 auto;
 		}
 	
