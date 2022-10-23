@@ -106,6 +106,7 @@ main {
   border-collapse: collapse;
 }
 
+
 .uppest th {
   font-weight: bold;
   /* ２番目以降の線 */
@@ -145,7 +146,7 @@ main {
   }
 
 .activity {
-	text-align:left;s
+	text-align:left;
 }
 
 .activity[title*="-"] {
@@ -323,5 +324,124 @@ footer p {
 	font-size: 0.5em;
 }
 
+.details-box table {
+	margin-top:20px;
+	margin-bottom:20px;
+	background-color:#FFF;
+	overflow-x: scroll;
+	text-align: center;
+	border-collapse: collapse;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+}
+
+.dd {
+	height:8vw;
+	background-color : #ded7c9;
+}
+
+.details-left {
+	width:25vw;
+	height:5vw;
+	background-color:#f2f0ea;
+	border-top:#000 solid 1px;
+	padding-left:0.5em;
+	font-weight:bold;
+}
+.details-right {
+	width:55vw;
+	height:5vw;
+	background-color:#FFF;
+	border-top:#000 solid 1px;
+	padding-left:0.5em;
+	padding-right:0.5em;
+}
+
+.button {
+	margin-top:10px;
+	margin-bottom:20px;
+	text-align: center;
 
 }
+
+.back-btn {
+	background-color:#463002;
+	border: none;
+	width:80%;
+	padding:10px;
+}
+.back-btn a {
+	text-decoration: none;
+	color:white;
+	margin:0 auto;
+}
+
+}
+
+/* 詳細ページへ飛ぶときのデザイン */
+.details-box {
+	width:90vw;
+	margin: 0 auto;
+  /* overflow-x: scroll;で、
+  スマホ画面幅に表が入りきらない場合は
+  横スクロールしてくれます */
+}
+
+.details-box table {
+	margin-top:2em;
+	margin-bottom:2em;
+	background-color:#FFF;
+	overflow-x: scroll;
+	text-align: center;
+	border-collapse: collapse;
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+	border-top:1px solid #000000;
+	border-bottom:1px solid #000000;
+	font-size:0.5em;
+}
+
+.dd {
+	height:8vw;
+	background-color : #ded7c9;
+}
+
+.details-left {
+	width:25vw;
+	height:5vw;
+	background-color:#f2f0ea;
+	border-top:#000 solid 1px;
+	padding-left:0.5em;
+	font-weight:bold;
+}
+.details-right {
+	width:65vw;
+	height:5vw;
+	background-color:#FFF;
+	border-top:#000 solid 1px;
+	padding-left:0.5em;
+	padding-right:0.5em;
+}
+
+.button {
+	margin-top:10px;
+	margin-bottom:20px;
+	text-align: center;
+}
+
+.back-btn {
+	background-color:#463002;
+	border: none;
+	width:90vw;
+	padding:10px;
+	font-size:0.5em;
+}
+.back-btn a {
+	text-decoration: none;
+	color:white;
+	margin:0 auto;
+}
+
+
