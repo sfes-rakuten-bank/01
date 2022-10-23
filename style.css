@@ -7,6 +7,7 @@ a{
 	text-decoration: none;
   }
 
+
 header {
 	display:flex;
 	height: 20%;
@@ -28,9 +29,10 @@ header p.payslip {
 }
 
 header a {
+	margin-top:auto;
 	margin-bottom:auto;
-	margin-right:1rem;
-	text-decoration: none;
+	margin-right:1em;
+	text-align:right;
 }
 
 header a i{
@@ -97,6 +99,7 @@ main {
 
 .notice a {
 	text-decoration: none;
+	color: #336496;
 }
 
 .sheet {
@@ -273,8 +276,8 @@ footer p {
 	}
 
 	.navi-name {
-		font-size: 0.1rem;
-		margin-top:0.25rem;
+		font-size: 0.5rem;
+		margin-top:0.5rem;
 	}
 
 
