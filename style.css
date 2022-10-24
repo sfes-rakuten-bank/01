@@ -261,22 +261,25 @@ footer p {
 		padding: 0;
 		text-align: center;
 		width:100vw;
-		height:20vw;
+		height:15vw;
 		}
 
 	ul.gnav-navi-1 li{
 		display: inline-block;
 		width:17vw;
-		margin:0 auto;
+		margin-top:1em;
 		}
 	
 	ul.gnav-navi-1 li a {
 		text-align: center;
 		padding:2px;
 	}
+	ul.gnav-navi-1 li a i {
+		margin-top:0.75rem;
+	}
 
 	.navi-name {
-		font-size: 0.60rem;
+		font-size: 0.75rem;
 		margin-top:0.5rem;
 	}
 
